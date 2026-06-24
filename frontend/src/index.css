@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg-void: #0a0e0f;
+  --bg-panel: #11171a;
+  --bg-panel-raised: #161e22;
+  --line: #1f2b30;
+  --text-primary: #e7eeec;
+  --text-dim: #6e8389;
+  --accent-safe: #3ddc84;
+  --accent-caution: #f5b942;
+  --accent-danger: #ff4d4d;
+  --accent-info: #3da9fc;
+  --font-display: 'JetBrains Mono', monospace;
+  --font-body: 'Inter', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg-void);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  background-image:
+    radial-gradient(circle at 15% 10%, rgba(61, 169, 252, 0.05), transparent 40%),
+    radial-gradient(circle at 85% 90%, rgba(61, 220, 132, 0.04), transparent 40%);
+}
+
+::selection {
+  background: var(--accent-info);
+  color: #000;
+}
+
+.mono {
+  font-family: var(--font-display);
+}
+
+.leaflet-container {
+  background: #0d1214 !important;
+  font-family: var(--font-body);
+}
