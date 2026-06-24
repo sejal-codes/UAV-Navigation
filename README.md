@@ -1,5 +1,3 @@
-markdown# AI-Based Intelligent UAV Navigation System
-
 A mission-control style platform that monitors live weather conditions along a UAV flight corridor, computes a real-time risk score, and uses the **A* pathfinding algorithm** to recommend a safer alternate route when hazardous conditions (e.g. storms) are detected.
 
 Built as a demonstration corridor between **Bengaluru and Mysuru, India**.
